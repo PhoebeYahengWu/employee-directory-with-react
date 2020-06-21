@@ -9,24 +9,31 @@ class App extends Component {
 
   state = {
     allUsers: [],
-    filteredResults: [],
-    searchTerm: ""
+    filteredResults: []
   }
 
 
   componentDidMount() {
     API.getData()
     .then(users => {
-      console.log(users)
+      this.setState({
+        allUsers: users.data.results,
+        filteredResults: users.data.results
+      })
     })
   }
 
-  
+  handleChange = e => {
+    const searchTerm = e.target.value;
+    const newFilteredUsers = this.state.allUsers.filter(user => user.name.first.indexOf(searchTerm)>=0);
+    this.setState({filteredResults: newFilteredUsers})
+  }
+
   render() {
     return (
       <>
-      <Search />
-      <ResultList />
+      <Search handleChange={this.handleChange}/>
+      <ResultList users={this.state.filteredResults}/>
       </>
     );
   }

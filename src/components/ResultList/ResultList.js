@@ -1,35 +1,36 @@
 import React from 'react'
 
-function ResultList() {
+function ResultList(props) {
     return (
         <div className="container-fluid">
           <table class="table table-hover">
             <thead>
                 <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Last</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Street</th>
+                <th scope="col">City</th>
+                <th scope="col">State</th>
+                <th scope="col">Postcode</th>
+                <th scope="col">Country</th>
                 </tr>
             </thead>
             <tbody>
+            {props.users? props.users.map(user => 
                 <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>{user.name.first}</td>
+                <td>{user.name.last}</td>
+                <td>{user.email}</td>
+                <td>{user.phone}</td>
+                <td>{user.location.street.name}</td>
+                <td>{user.location.city}</td>
+                <td>{user.location.state}</td>
+                <td>{user.location.postcode}</td>
+                <td>{user.location.country}</td>
                 </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-                </tr>
+                ): <p>No repo available!</p>}
             </tbody>
             </table>  
         </div>

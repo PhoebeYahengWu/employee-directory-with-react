@@ -1,16 +1,17 @@
 import React from 'react'
+import './style.css'
 
-function Search() {
+function Search(props) {
     return (
         <form className="m-3">
         <div className="input-group">
           <input
-            // onChange={props.handleInputChange}
-            // value={props.search}
+            onChange={props.handleInputChange}
+            value={props.search}
             name="search"
             type="text"
             className="form-control"
-            placeholder="Search for Another GitHub User"
+            placeholder="Search for An Employee"
             id="search"
           />
           <div className="input-group-append">
