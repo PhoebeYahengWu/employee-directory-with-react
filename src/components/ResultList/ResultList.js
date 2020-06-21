@@ -3,7 +3,7 @@ import React from 'react'
 function ResultList(props) {
     return (
         <div className="container-fluid">
-          <table class="table table-hover">
+          <table className="table table-hover">
             <thead>
                 <tr>
                 <th scope="col">First Name</th>
@@ -18,8 +18,8 @@ function ResultList(props) {
                 </tr>
             </thead>
             <tbody>
-            {props.users? props.users.map(user => 
-                <tr>
+            {props.users? props.users.map((user, i) => 
+                <tr key={i}>
                 <td>{user.name.first}</td>
                 <td>{user.name.last}</td>
                 <td>{user.email}</td>
