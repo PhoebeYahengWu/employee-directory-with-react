@@ -12,8 +12,8 @@ function ResultList(props) {
                 <th scope="col">Phone</th>
                 <th scope="col">Street</th>
                 <th scope="col">City</th>
-                <th scope="col">State</th>
-                <th scope="col">Postcode</th>
+                {/* <th scope="col">State</th>
+                <th scope="col">Postcode</th> */}
                 <th scope="col">Country</th>
                 </tr>
             </thead>
@@ -26,8 +26,8 @@ function ResultList(props) {
                 <td>{user.phone}</td>
                 <td>{user.location.street.name}</td>
                 <td>{user.location.city}</td>
-                <td>{user.location.state}</td>
-                <td>{user.location.postcode}</td>
+                {/* <td>{user.location.state}</td>
+                <td>{user.location.postcode}</td> */}
                 <td>{user.location.country}</td>
                 </tr>
                 ): <p>No repo available!</p>}
