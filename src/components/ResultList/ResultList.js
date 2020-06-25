@@ -11,7 +11,7 @@ function ResultList(props) {
                 <th scope="col">Last Last</th>
                 <th scope="col">Email</th>
                 <th scope="col">Phone</th>
-                <th scope="col">Street</th>
+                {/* <th scope="col">Street</th> */}
                 <th scope="col">City</th>
                 {/* <th scope="col">State</th>
                 <th scope="col">Postcode</th> */}
@@ -25,7 +25,7 @@ function ResultList(props) {
                 <td>{user.name.last}</td>
                 <td>{user.email}</td>
                 <td>{user.phone}</td>
-                <td>{user.location.street.name}</td>
+                {/* <td>{user.location.street.name}</td> */}
                 <td>{user.location.city}</td>
                 {/* <td>{user.location.state}</td>
                 <td>{user.location.postcode}</td> */}
