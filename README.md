@@ -1,4 +1,5 @@
 # React Employee Directory
+![employee](https://user-images.githubusercontent.com/52837649/86244141-82e78480-bb75-11ea-813d-a1d55d259a5c.gif)
 
 ## Description
 An employee directory that allows users to view non-sensitive data of other employees and filter by name, email, phone, city and country.
