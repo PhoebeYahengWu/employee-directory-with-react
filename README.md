@@ -22,7 +22,7 @@ React, Bootstrap, API
 
 
 ## Usage
-https://react-directory-search.herokuapp.com/
+Enter name, city or country to search or filter employees
 
 ## Contributor
 Phoebe Yaheng Wu
