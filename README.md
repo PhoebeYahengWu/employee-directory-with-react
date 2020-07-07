@@ -2,7 +2,7 @@
 ![employee](https://user-images.githubusercontent.com/52837649/86244141-82e78480-bb75-11ea-813d-a1d55d259a5c.gif)
 
 ## Description
-An employee directory that allows users to view non-sensitive data of other employees and filter by name, email, phone, city and country.
+Employee Directory is a simple React application that lists the name, phone, email, and location of 200 employees and allows users to filter employees’ info by either name or location. Employee information is fetched through a random user API. 
 
 ## Table of Contents
 
