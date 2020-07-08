@@ -12,7 +12,7 @@ Employee Directory is a simple React application that lists the name, phone, ema
 
 * Contributor
 
-* links
+* link
 
 * Questions
 
