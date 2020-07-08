@@ -1,38 +1,37 @@
-# React Employee Directory
+# Employee Directory
 ![employee](https://user-images.githubusercontent.com/52837649/86244141-82e78480-bb75-11ea-813d-a1d55d259a5c.gif)
 
 ## Description
-Employee Directory is a simple React application that lists the name, phone, email, and location of 200 employees and allows users to filter employees’ info by either name or location. Employee information is fetched through a random user API. 
+Employee Directory is a simple React application that lists the name, phone, email, and location of 200 employees and allows users to filter employees’ info by either name or location. Employee information is fetched through a random user API.
 
 ## Table of Contents
 
-* Tech/Framework Used
+* [Tech/Framework Used](#TechUsed)
 
-* Usage
+* [link](#Link)
 
-* Contributor
+* [Usage](#usage)
 
-* link
+* [Contributing](#contributing)
 
-* Questions
+* [Questions](#Questions)
 
 
-## Tech/Framework Used
-React, Bootstrap, API
+## TechUsed
+React, JavaScript, API
 
+## Link
+react-directory-search.herokuapp.com/
 
 ## Usage
-Enter name, city or country to search or filter employees
+Enter name, city or country to search or filter employees.
 
-## Contributor
-Phoebe Yaheng Wu
-
-
-## Link to project URL
-https://react-directory-search.herokuapp.com/
-
+## Contributing
+Please feel free to fork or clone the repo.
 
 ## Questions
+![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
 
-For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com
+For questions about the project contact PhoebeYahengWu or directly at wuyaheng2016@gmail.com.
+
 
