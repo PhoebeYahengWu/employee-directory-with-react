@@ -12,8 +12,6 @@ Employee Directory is a simple React application that lists the name, phone, ema
 
 * [Usage](#usage)
 
-* [Contributing](#contributing)
-
 * [Questions](#Questions)
 
 
@@ -25,9 +23,6 @@ https://react-directory-search.herokuapp.com/
 
 ## Usage
 Enter name, city or country to search or filter employees.
-
-## Contributing
-Please feel free to fork or clone the repo.
 
 ## Questions
 ![user profile image](https://avatars0.githubusercontent.com/u/52837649?v=4)
