@@ -8,14 +8,14 @@ function ResultList(props) {
             <thead>
                 <tr>
                 <th scope="col">First Name</th>
-                <th scope="col">Last Last</th>
+                <th scope="col">Last Name</th>
                 <th scope="col">Email</th>
                 <th scope="col">Phone</th>
                 {/* <th scope="col">Street</th> */}
                 <th scope="col">City</th>
                 {/* <th scope="col">State</th>
                 <th scope="col">Postcode</th> */}
-                <th scope="col">Country</th>
+                <th scope="col">Country</th> 
                 </tr>
             </thead>
             <tbody>
